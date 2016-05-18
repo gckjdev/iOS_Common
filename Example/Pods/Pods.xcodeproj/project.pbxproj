@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BE369016344608E10509EE6F1CBAA77 /* WinTourLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AFF68901CF4D16676E62A344B540AAB /* WinTourLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46A7222943F6F882C5A0E72AE6A95587 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		54FD8DED120B0F5CEA2218C5F6C1F413 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		A65D8CD3D79DF9B94083BB5078DF8EC1 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6546E5D852AECE46487907E4BC2609 /* ReplaceMe.m */; };
+		ACF5D3CBCE93F792368BD2B558474C16 /* Pods-WinTourLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A207BFC60B61C0E797CEE7431AF46854 /* Pods-WinTourLibrary_Tests-dummy.m */; };
+		CC10D69F2036BFF5CA7FAAFB2078D8A8 /* Pods-WinTourLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85B809380CB95A55B1C9EFF452EA9EA9 /* Pods-WinTourLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDCFAC81275944680EDDCC5D37F83F46 /* WinTourLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5219B74F7F6D0D953109C9231C512817 /* WinTourLibrary-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00D1DDF3A231A4D21F3FCC697B88EF50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42ACD66FA5C0EC6E05A9418AF5733F05;
+			remoteInfo = WinTourLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C322CC21DBCC46FF388CDE8B5611FBD /* WinTourLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WinTourLibrary-prefix.pch"; sourceTree = "<group>"; };
+		2AFF68901CF4D16676E62A344B540AAB /* WinTourLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WinTourLibrary-umbrella.h"; sourceTree = "<group>"; };
+		3E145CCE0779CDD2D7AEF73709E7C871 /* WinTourLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WinTourLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		401CE2C717EA214305D831AE0743151B /* Pods_WinTourLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WinTourLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF2471F12ED65E24E71850582985624 /* Pods-WinTourLibrary_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WinTourLibrary_Tests-resources.sh"; sourceTree = "<group>"; };
+		5219B74F7F6D0D953109C9231C512817 /* WinTourLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WinTourLibrary-dummy.m"; sourceTree = "<group>"; };
+		5C6546E5D852AECE46487907E4BC2609 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		621ACDEEDFF43C7AB2E9C3CFF8946FED /* Pods-WinTourLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WinTourLibrary_Tests.modulemap"; sourceTree = "<group>"; };
+		694132F46654AB03E4045C0CA5B72D24 /* Pods-WinTourLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WinTourLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		75B857A8EF16C4F5C47750C26EA0C0BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FF8735D20CFC804D3C2666CFE04414D /* Pods-WinTourLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WinTourLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		85B809380CB95A55B1C9EFF452EA9EA9 /* Pods-WinTourLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WinTourLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9BCA4741BD865373D0489E4EAE8C219C /* Pods-WinTourLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WinTourLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9E37E04B806703BE372827AA00848FA2 /* WinTourLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WinTourLibrary.xcconfig; sourceTree = "<group>"; };
+		A207BFC60B61C0E797CEE7431AF46854 /* Pods-WinTourLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WinTourLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
+		B6F2FBA6B41B9E79D5CBFC70F36CDE58 /* Pods-WinTourLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WinTourLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C5165DE3A79FFC6CBE22CCCA68521295 /* WinTourLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WinTourLibrary.modulemap; sourceTree = "<group>"; };
+		C60208FDA333ACF84523CBCF02732FD7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCB988B6721804BC2567B6878005B72A /* Pods-WinTourLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WinTourLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A6D13F215FFD5076F3253BBC54CA08E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A7222943F6F882C5A0E72AE6A95587 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F65E94C64C2F579141AB66CF0CB63AEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FD8DED120B0F5CEA2218C5F6C1F413 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21F42493BA10B1BA7C33382F7A9CAD1D /* Pods-WinTourLibrary_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C60208FDA333ACF84523CBCF02732FD7 /* Info.plist */,
+				621ACDEEDFF43C7AB2E9C3CFF8946FED /* Pods-WinTourLibrary_Tests.modulemap */,
+				9BCA4741BD865373D0489E4EAE8C219C /* Pods-WinTourLibrary_Tests-acknowledgements.markdown */,
+				694132F46654AB03E4045C0CA5B72D24 /* Pods-WinTourLibrary_Tests-acknowledgements.plist */,
+				A207BFC60B61C0E797CEE7431AF46854 /* Pods-WinTourLibrary_Tests-dummy.m */,
+				7FF8735D20CFC804D3C2666CFE04414D /* Pods-WinTourLibrary_Tests-frameworks.sh */,
+				4BF2471F12ED65E24E71850582985624 /* Pods-WinTourLibrary_Tests-resources.sh */,
+				85B809380CB95A55B1C9EFF452EA9EA9 /* Pods-WinTourLibrary_Tests-umbrella.h */,
+				FCB988B6721804BC2567B6878005B72A /* Pods-WinTourLibrary_Tests.debug.xcconfig */,
+				B6F2FBA6B41B9E79D5CBFC70F36CDE58 /* Pods-WinTourLibrary_Tests.release.xcconfig */,
+			);
+			name = "Pods-WinTourLibrary_Tests";
+			path = "Target Support Files/Pods-WinTourLibrary_Tests";
+			sourceTree = "<group>";
+		};
+		3E449B40827C5CA08A3CDA310C541F36 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21F42493BA10B1BA7C33382F7A9CAD1D /* Pods-WinTourLibrary_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		58E2AE9A0572DD47DF136DB187186763 /* WinTourLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				865C98D38609E7017B165704CEF50CD1 /* Support Files */,
+				EE96B83425B613AA7D80C38D7FE6BCA5 /* WinTourLibrary */,
+			);
+			name = WinTourLibrary;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				DE73303260A739AB346E38983C6083D9 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FD2FE9F5C50A1B1480D83C570915B66F /* Products */,
+				3E449B40827C5CA08A3CDA310C541F36 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		865C98D38609E7017B165704CEF50CD1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75B857A8EF16C4F5C47750C26EA0C0BB /* Info.plist */,
+				C5165DE3A79FFC6CBE22CCCA68521295 /* WinTourLibrary.modulemap */,
+				9E37E04B806703BE372827AA00848FA2 /* WinTourLibrary.xcconfig */,
+				5219B74F7F6D0D953109C9231C512817 /* WinTourLibrary-dummy.m */,
+				1C322CC21DBCC46FF388CDE8B5611FBD /* WinTourLibrary-prefix.pch */,
+				2AFF68901CF4D16676E62A344B540AAB /* WinTourLibrary-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WinTourLibrary";
+			sourceTree = "<group>";
+		};
+		9EB6895C4BE6D9B34100B300112AB25C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5C6546E5D852AECE46487907E4BC2609 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DE73303260A739AB346E38983C6083D9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58E2AE9A0572DD47DF136DB187186763 /* WinTourLibrary */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EE96B83425B613AA7D80C38D7FE6BCA5 /* WinTourLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				9EB6895C4BE6D9B34100B300112AB25C /* Classes */,
+			);
+			path = WinTourLibrary;
+			sourceTree = "<group>";
+		};
+		FD2FE9F5C50A1B1480D83C570915B66F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				401CE2C717EA214305D831AE0743151B /* Pods_WinTourLibrary_Tests.framework */,
+				3E145CCE0779CDD2D7AEF73709E7C871 /* WinTourLibrary.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ACC18E4CCBCED83199AAE9D48D00DAE0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC10D69F2036BFF5CA7FAAFB2078D8A8 /* Pods-WinTourLibrary_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA0769FE98613C6235F0E1FB0080E2CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE369016344608E10509EE6F1CBAA77 /* WinTourLibrary-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2489453A7A0DC9526B6515850F038EB1 /* Pods-WinTourLibrary_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12E8575589871DFCCB31D63171DD6D96 /* Build configuration list for PBXNativeTarget "Pods-WinTourLibrary_Tests" */;
+			buildPhases = (
+				031DBCF6F0B1041C975AFEB7FE7681C8 /* Sources */,
+				0A6D13F215FFD5076F3253BBC54CA08E /* Frameworks */,
+				ACC18E4CCBCED83199AAE9D48D00DAE0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B01F50B8DACE0AE574936A8CBD208D4 /* PBXTargetDependency */,
+			);
+			name = "Pods-WinTourLibrary_Tests";
+			productName = "Pods-WinTourLibrary_Tests";
+			productReference = 401CE2C717EA214305D831AE0743151B /* Pods_WinTourLibrary_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		42ACD66FA5C0EC6E05A9418AF5733F05 /* WinTourLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 026302B03D27A940956E3A8C6DF1300D /* Build configuration list for PBXNativeTarget "WinTourLibrary" */;
+			buildPhases = (
+				E553ECB4EC2D54AC069A970992E120F0 /* Sources */,
+				F65E94C64C2F579141AB66CF0CB63AEC /* Frameworks */,
+				DA0769FE98613C6235F0E1FB0080E2CC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WinTourLibrary;
+			productName = WinTourLibrary;
+			productReference = 3E145CCE0779CDD2D7AEF73709E7C871 /* WinTourLibrary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FD2FE9F5C50A1B1480D83C570915B66F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2489453A7A0DC9526B6515850F038EB1 /* Pods-WinTourLibrary_Tests */,
+				42ACD66FA5C0EC6E05A9418AF5733F05 /* WinTourLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		031DBCF6F0B1041C975AFEB7FE7681C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF5D3CBCE93F792368BD2B558474C16 /* Pods-WinTourLibrary_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E553ECB4EC2D54AC069A970992E120F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65D8CD3D79DF9B94083BB5078DF8EC1 /* ReplaceMe.m in Sources */,
+				DDCFAC81275944680EDDCC5D37F83F46 /* WinTourLibrary-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B01F50B8DACE0AE574936A8CBD208D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WinTourLibrary;
+			target = 42ACD66FA5C0EC6E05A9418AF5733F05 /* WinTourLibrary */;
+			targetProxy = 00D1DDF3A231A4D21F3FCC697B88EF50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C8C402AAD8BD638889D2B3A6DD064C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6F2FBA6B41B9E79D5CBFC70F36CDE58 /* Pods-WinTourLibrary_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WinTourLibrary_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WinTourLibrary_Tests/Pods-WinTourLibrary_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_WinTourLibrary_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C67550E4081691D9FFCB9D48EA5E6B06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCB988B6721804BC2567B6878005B72A /* Pods-WinTourLibrary_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WinTourLibrary_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WinTourLibrary_Tests/Pods-WinTourLibrary_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_WinTourLibrary_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0E96B5749AAF17127E4DC633E95C48A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E37E04B806703BE372827AA00848FA2 /* WinTourLibrary.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WinTourLibrary/WinTourLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WinTourLibrary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WinTourLibrary/WinTourLibrary.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WinTourLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9D48A3064C98E20792B0071D73E54FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E37E04B806703BE372827AA00848FA2 /* WinTourLibrary.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WinTourLibrary/WinTourLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WinTourLibrary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WinTourLibrary/WinTourLibrary.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WinTourLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		026302B03D27A940956E3A8C6DF1300D /* Build configuration list for PBXNativeTarget "WinTourLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D48A3064C98E20792B0071D73E54FE /* Debug */,
+				D0E96B5749AAF17127E4DC633E95C48A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12E8575589871DFCCB31D63171DD6D96 /* Build configuration list for PBXNativeTarget "Pods-WinTourLibrary_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67550E4081691D9FFCB9D48EA5E6B06 /* Debug */,
+				4C8C402AAD8BD638889D2B3A6DD064C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

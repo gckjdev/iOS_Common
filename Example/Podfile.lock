@@ -1,0 +1,14 @@
+PODS:
+  - WinTourLibrary (0.1.0)
+
+DEPENDENCIES:
+  - WinTourLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  WinTourLibrary:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WinTourLibrary: 3ad485496f9f0c9840be2762ee5d0c15077f97ca
+
+COCOAPODS: 0.39.0

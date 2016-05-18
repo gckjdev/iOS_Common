@@ -1,0 +1,6 @@
+framework module WinTourLibrary {
+  umbrella header "WinTourLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}
