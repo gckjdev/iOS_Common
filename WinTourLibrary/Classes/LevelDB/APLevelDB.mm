@@ -54,7 +54,7 @@
 #import "db.h"
 #import "options.h"
 #import "write_batch.h"
-#import "PPDebug.h"
+//#import "PPDebug.h"
 
 NSString * const APLevelDBErrorDomain = @"APLevelDBErrorDomain";
 
@@ -144,7 +144,7 @@ NSString * const APLevelDBErrorDomain = @"APLevelDBErrorDomain";
 {
     NSData* data = [NSKeyedArchiver archivedDataWithRootObject:object];
     if (data == nil){
-        PPDebug(@"level db setObject for key(%@) but data is nil!", key);
+        NSLog(@"level db setObject for key(%@) but data is nil!", key);
         return NO;
     }
     

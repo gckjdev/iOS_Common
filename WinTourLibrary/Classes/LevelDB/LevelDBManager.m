@@ -7,8 +7,8 @@
 //
 
 #import "LevelDBManager.h"
-#import "FileUtil.h"
-#import "PPDebug.h"
+//#import "FileUtil.h"
+//#import "PPDebug.h"
 
 #define LEVEL_DB_DIR   @"level_db"
 
@@ -28,14 +28,41 @@ static LevelDBManager* globalLevelDBManager;
 
 - (id)init
 {
-    NSString* dir = [FileUtil filePathInAppDocument:LEVEL_DB_DIR];
-    [FileUtil createDir:dir];    
+    NSString* dir = [LevelDBManager filePathInAppDocument:LEVEL_DB_DIR];
+    [LevelDBManager createDir:dir];
     
     self = [super init];
     _allDbs = [[NSMutableDictionary alloc] init];
 
     
     return self;
+}
+
++ (BOOL)createDir:(NSString*)fullPath
+{
+    
+    // Check if the directory already exists
+    if (![[NSFileManager defaultManager] fileExistsAtPath:fullPath]) {
+        
+        // Directory does not exist so create it
+        NSLog(@"create dir = %@", fullPath);
+        
+        NSError* error = nil;
+        BOOL result = [[NSFileManager defaultManager] createDirectoryAtPath:fullPath withIntermediateDirectories:YES attributes:nil error:&error];
+        if (result == NO){
+            NSLog(@"create dir (%@) but error (%@)", fullPath, [error description]);
+        }
+        
+        return result;
+    }
+    else{
+        return YES;
+    }
+}
++ (NSString *)filePathInAppDocument:(NSString *)fileName{
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *retDir = [[paths objectAtIndex:0] stringByAppendingPathComponent:fileName];
+    return retDir;
 }
 
 - (APLevelDB*)db:(NSString*)dbName
@@ -48,16 +75,16 @@ static LevelDBManager* globalLevelDBManager;
         return ldb;        
     
     NSString* path = [NSString stringWithFormat:@"%@/%@", LEVEL_DB_DIR, dbName];
-    NSString* filePath = [FileUtil filePathInAppDocument:path];
+    NSString* filePath = [LevelDBManager filePathInAppDocument:path];
     
     NSError* error = nil;
     ldb = [APLevelDB levelDBWithPath:filePath error:&error];
     if (ldb != nil){
-        PPDebug(@"Open Level DB At Path:%@", filePath);
+        NSLog(@"Open Level DB At Path:%@", filePath);
         [_allDbs setObject:ldb forKey:dbName];
     }
     else{
-        PPDebug(@"ERROR(%@) Open Level DB At Path:%@", [error description], filePath);
+        NSLog(@"ERROR(%@) Open Level DB At Path:%@", [error description], filePath);
     }
 
     return ldb;
