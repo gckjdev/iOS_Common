@@ -1,0 +1,6 @@
+use_frameworks!
+target 'WinTourLibrary_Tests' do
+  pod 'WinTourLibrary', :path => '../'
+  
+  
+end
