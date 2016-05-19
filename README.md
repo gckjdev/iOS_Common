@@ -8,7 +8,7 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+There is No Example so far.
 
 ## Requirements
 
@@ -18,7 +18,7 @@ Common is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "WinTourLibrary"
+pod 'Common', :git=> 'https://github.com/gckjdev/iOS_Common.git' and That is OK.
 ```
 
 ## Author
@@ -27,5 +27,5 @@ lzc1104, 527004184@qq.com
 
 ## License
 
-WinTourLibrary is available under the MIT license. See the LICENSE file for more info.
+Common is available under the MIT license. See the LICENSE file for more info.
 
